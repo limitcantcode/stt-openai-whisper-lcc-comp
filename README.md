@@ -32,5 +32,7 @@ If it runs, it should be fine.
 There is no configuration.
 
 ## Related stuff
+
 Project J.A.I.son: https://github.com/limitcantcode/jaison-core
+
 Join the community Discord: https://discord.gg/Z8yyEzHsYM
