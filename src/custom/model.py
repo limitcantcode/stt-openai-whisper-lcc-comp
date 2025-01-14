@@ -11,8 +11,8 @@ class STTModel():
 
     Returns (str) the transcribed text.
     '''
-    def __call__(self, filepath):
+    def __call__(self, audio):
         logging.debug(f"Got transcription request.")
-        result = self.model.transcribe(filepath, language='English')
+        result = self.model.transcribe(audio, language='English')
         logging.debug(f"Got transcription result: {result}")
         return result["text"]
