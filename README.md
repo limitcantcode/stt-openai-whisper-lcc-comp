@@ -9,7 +9,7 @@ For either setup, also ensure you have [ffmpeg](https://ffmpeg.org/) installed. 
 
 Windows
 ```
-conda create -n jaison-comp-stt-openai-whisper python=3.12
+conda create -n jaison-comp-stt-openai-whisper python=3.12 ffmpeg
 conda activate jaison-comp-stt-openai-whisper
 pip install -r requirements.txt
 ```
