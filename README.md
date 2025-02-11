@@ -5,11 +5,11 @@ Uses [OpenAI Whisper](https://github.com/openai/whisper) to perform transcriptio
 
 ## Setup
 
-For either setup, also ensure you have [ffmpeg](https://ffmpeg.org/) installed. Checkout [OpenAI's repo](https://github.com/openai/whisper) for more specific setup instructions. Make sure to install pytorch using the right command from [their official install page](https://pytorch.org/get-started/locally/)
+Checkout [OpenAI's repo](https://github.com/openai/whisper) for more specific setup instructions. Make sure to install pytorch specific to your machine from [their official install page](https://pytorch.org/get-started/locally/)
 
 Windows
 ```
-conda create -n jaison-comp-stt-openai-whisper python=3.12 pytorch-cuda ffmpeg
+conda create -n jaison-comp-stt-openai-whisper python=3.12 pytorch-cuda
 conda activate jaison-comp-stt-openai-whisper
 # pytorch install command like pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 pip install -r requirements.txt
