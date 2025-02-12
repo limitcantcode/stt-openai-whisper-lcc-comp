@@ -1,6 +1,3 @@
-from dotenv import load_dotenv
-load_dotenv()
-
 '''
 Supported component type entrypoints
 
