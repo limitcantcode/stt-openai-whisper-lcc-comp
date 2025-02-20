@@ -12,8 +12,9 @@ This class is responsible for transcribing audio
 from wave files.
 '''
 
+from custom.config import config
 from .model import STTModel
-stt_model = STTModel()
+stt_model = STTModel(config['model'], config['prompt'], config['no_speech_threshold'])
 
 from jaison_grpc.common import STTComponentRequest, T2TComponentRequest, TTSGComponentRequest, TTSCComponentRequest
 async def request_unpacker(request_iterator):
